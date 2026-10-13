@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="AnasDev Digital Studio — websites, web applications, SEO audits and interactive digital experiences.">
+  <meta name="author" content="AnasDev">
+  <meta property="og:title" content="AnasDev — Digital Studio">
+  <meta property="og:description" content="Digital experiences built with purpose, performance and precision.">
+  <meta property="og:type" content="website">
+  <title>AnasDev — Digital Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="site-glow glow-one"></div>
+  <div class="site-glow glow-two"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="AnasDev home">
+        <span class="brand-mark">A<span>.</span></span>
+        <span class="brand-name">Anas<span>Dev</span><small> DIGITAL STUDIO</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button"
+        aria-label="Open navigation" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#home" data-i18n="navHome">Home</a>
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#work" data-i18n="navWork">Projects</a>
+        <a href="#pricing" data-i18n="navPricing">Pricing</a>
+        <a href="#contact" class="nav-contact" data-i18n="navContact">Let's talk <span>↗</span></a>
+        <label class="language-picker">
+          <span class="sr-only" data-i18n="languageLabel">Choose language</span>
+          <select id="languageSelect" aria-label="Choose language">
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+            <option value="ar">عربي</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">INDEPENDENT DIGITAL STUDIO</span></div>
+          <h1 data-i18n="heroTitle">Ideas into <span class="gradient-text">digital experiences.</span></h1>
+          <p class="hero-description" data-i18n="heroDescription">
+            I build modern websites, useful digital tools and interactive experiences designed around real goals.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work"><span data-i18n="heroPrimary">Explore my work</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#contact" data-i18n="heroSecondary">Start a project</a>
+          </div>
+          <div class="hero-note"><span class="note-line"></span><span data-i18n="heroNote">Thoughtful design. Practical technology. Clear communication.</span></div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Abstract digital artwork">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-core">
+            <div class="core-top"><span class="core-dot"></span><span data-i18n="visualLabel">DIGITAL / CRAFT</span></div>
+            <div class="core-symbol">A<span>.</span></div>
+            <div class="core-bottom"><span>DESIGN</span><span>CODE</span><span>BUILD</span></div>
+          </div>
+          <div class="float-card float-card-top"><span class="float-icon">✳</span><span data-i18n="floatDesign">Thoughtful design</span></div>
+          <div class="float-card float-card-bottom"><span class="mini-bars"><i></i><i></i><i></i><i></i></span><span data-i18n="floatPerformance">Performance first</span></div>
+          <div class="art-caption">ANASDEV® — 2026</div>
+        </div>
+      </div>
+      <div class="container trust-strip">
+        <span data-i18n="stripLabel">BUILDING WITH</span>
+        <div class="tech-list"><span>HTML / CSS</span><span>JavaScript</span><span>Python</span><span>Three.js</span><span>SEO</span></div>
+      </div>
+    </section>
+
+    <section class="section section-border" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><span class="section-kicker" data-i18n="servicesKicker">WHAT I DO</span><h2 data-i18n="servicesTitle">Digital solutions, <span class="gradient-text">built to work.</span></h2></div>
+          <p data-i18n="servicesIntro">From a clear online presence to custom tools, each project starts with your needs and ends with something practical.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="card-top"><span class="service-icon">&lt;/&gt;</span><span class="card-number">01</span></div>
+            <h3 data-i18n="service1Title">Web design & development</h3>
+            <p data-i18n="service1Text">Responsive, accessible websites with thoughtful layouts, clear messaging and fast-loading pages.</p>
+            <div class="tag-list"><span>Responsive</span><span>SEO basics</span><span>Accessibility</span></div>
+          </article>
+          <article class="service-card reveal">
+            <div class="card-top"><span class="service-icon">⌘</span><span class="card-number">02</span></div>
+            <h3 data-i18n="service2Title">Digital tools & web apps</h3>
+            <p data-i18n="service2Text">Useful dashboards, automation concepts and browser-based tools built around specific workflows.</p>
+            <div class="tag-list"><span>JavaScript</span><span>Python</span><span>APIs</span></div>
+          </article>
+          <article class="service-card reveal">
+            <div class="card-top"><span class="service-icon">◎</span><span class="card-number">03</span></div>
+            <h3 data-i18n="service3Title">Website audits & SEO</h3>
+            <p data-i18n="service3Text">Technical reviews that help identify broken links, metadata issues, performance opportunities and crawl problems.</p>
+            <div class="tag-list"><span>Technical SEO</span><span>Web checks</span><span>Reports</span></div>
+          </article>
+          <article class="service-card reveal">
+            <div class="card-top"><span class="service-icon">◇</span><span class="card-number">04</span></div>
+            <h3 data-i18n="service4Title">Interactive web experiences</h3>
+            <p data-i18n="service4Text">Experiments and interactive browser experiences, including real-time 3D scenes and game prototypes.</p>
+            <div class="tag-list"><span>Three.js</span><span>WebGL</span><span>Prototypes</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-border" id="work">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><span class="section-kicker" data-i18n="workKicker">SELECTED WORK</span><h2 data-i18n="workTitle">Ideas taking <span class="gradient-text">shape.</span></h2></div>
+          <p data-i18n="workIntro">A selection of independent projects and ongoing experiments. Features and availability may evolve.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-football reveal">
+            <div class="project-visual visual-football">
+              <div class="visual-label">INTERACTIVE / 3D</div>
+              <div class="pitch"><div class="pitch-line"></div><div class="pitch-circle"></div><div class="pitch-box"></div><div class="pitch-ball"></div></div>
+              <span class="visual-index">01</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span data-i18n="projectTypeGame">GAME PROTOTYPE</span><span>THREE.JS</span></div>
+              <h3>ANAS 3D Football</h3>
+              <p data-i18n="projectFootballText">A browser-based football shooting experiment focused on 3D rendering, camera movement and responsive controls.</p>
+              <span class="project-status"><i></i><span data-i18n="statusDevelopment">In development</span></span>
+            </div>
+          </article>
+
+          <article class="project-card project-live reveal">
+            <div class="project-visual visual-live">
+              <div class="visual-label">SPORTS / WEB</div>
+              <div class="live-mock"><div class="mock-header"><b>ASY</b><span>LIVE</span><i></i></div><div class="mock-score"><span>RJA</span><b>VS</b><span>WYD</span></div><div class="mock-bars"><i></i><i></i><i></i></div></div>
+              <span class="visual-index">02</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span data-i18n="projectTypePlatform">WEB PLATFORM CONCEPT</span><span>UI / UX</span></div>
+              <h3>ASY LIVE</h3>
+              <p data-i18n="projectLiveText">A football-focused interface concept for match information, standings, news and multilingual browsing.</p>
+              <span class="project-status"><i></i><span data-i18n="statusDevelopment">In development</span></span>
+            </div>
+          </article>
+
+          <article class="project-card project-audit reveal">
+            <div class="project-visual visual-audit">
+              <div class="visual-label">PYTHON / ANALYSIS</div>
+              <div class="audit-mock"><div class="audit-ring"><span>SEO</span></div><div class="audit-lines"><i></i><i></i><i></i><i></i></div></div>
+              <span class="visual-index">03</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span data-i18n="projectTypeTool">DEVELOPER TOOL</span><span>PYTHON</span></div>
+              <h3>ANAS Site Intelligence</h3>
+              <p data-i18n="projectAuditText">A website auditing project exploring crawl results, technical checks, issue tracking and report generation.</p>
+              <span class="project-status"><i></i><span data-i18n="statusPrototype">Prototype</span></span>
+            </div>
+          </article>
+        </div>
+        <p class="projects-disclaimer" data-i18n="workDisclaimer">Project descriptions represent development work and concepts; they do not imply a public launch or third-party endorsement.</p>
+      </div>
+    </section>
+
+    <section class="section section-border" id="pricing">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><span class="section-kicker" data-i18n="pricingKicker">SIMPLE STARTING POINTS</span><h2 data-i18n="pricingTitle">Clear scope. <span class="gradient-text">Fair estimates.</span></h2></div>
+          <p data-i18n="pricingIntro">The examples below are indicative starting points, not binding offers. Final pricing depends on requirements, content and delivery timeline.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <span class="price-label" data-i18n="price1Label">STARTER</span>
+            <h3 data-i18n="price1Title">Landing page</h3>
+            <p data-i18n="price1Text">A focused page for a service, product or personal brand.</p>
+            <div class="price-value"><span data-i18n="from">From</span> 2,500 <small>MAD</small></div>
+            <ul><li data-i18n="price1Feature1">Responsive layout</li><li data-i18n="price1Feature2">Core SEO setup</li><li data-i18n="price1Feature3">Contact links</li></ul>
+            <a class="button button-ghost price-button" href="#contact" data-i18n="priceCta">Discuss a project</a>
+          </article>
+          <article class="price-card price-featured reveal">
+            <span class="featured-label" data-i18n="recommended">POPULAR CHOICE</span>
+            <span class="price-label" data-i18n="price2Label">BUSINESS</span>
+            <h3 data-i18n="price2Title">Business website</h3>
+            <p data-i18n="price2Text">A professional online presence for a growing business.</p>
+            <div class="price-value"><span data-i18n="from">From</span> 5,000 <small>MAD</small></div>
+            <ul><li data-i18n="price2Feature1">Multiple content sections</li><li data-i18n="price2Feature2">Custom visual direction</li><li data-i18n="price2Feature3">Responsive and SEO basics</li></ul>
+            <a class="button button-primary price-button" href="#contact" data-i18n="priceCta">Discuss a project</a>
+          </article>
+          <article class="price-card reveal">
+            <span class="price-label" data-i18n="price3Label">CUSTOM</span>
+            <h3 data-i18n="price3Title">Web application</h3>
+            <p data-i18n="price3Text">Custom functionality, dashboards or interactive experiences.</p>
+            <div class="price-value"><span data-i18n="from">From</span> 8,500 <small>MAD</small></div>
+            <ul><li data-i18n="price3Feature1">Scope-based planning</li><li data-i18n="price3Feature2">Custom functionality</li><li data-i18n="price3Feature3">Testing and refinement</li></ul>
+            <a class="button button-ghost price-button" href="#contact" data-i18n="priceCta">Discuss a project</a>
+          </article>
+        </div>
+        <p class="pricing-note" data-i18n="pricingNote">Prices are illustrative estimates in Moroccan dirhams. Confirm scope, maintenance, hosting and any external service costs before agreeing to a quote.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel reveal">
+        <div class="contact-copy">
+          <span class="section-kicker" data-i18n="contactKicker">HAVE A PROJECT IN MIND?</span>
+          <h2 data-i18n="contactTitle">Let's make something <span class="gradient-text">meaningful.</span></h2>
+          <p data-i18n="contactIntro">Tell me what you're planning, what you need and what success looks like. We'll start with a clear conversation.</p>
+          <div class="contact-detail"><span class="contact-detail-icon">↗</span><span data-i18n="contactAvailability">Available for project enquiries</span></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="name" data-i18n="formNameLabel">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required maxlength="100" data-i18n-placeholder="formNamePlaceholder" placeholder="How should I call you?">
+          <label for="email" data-i18n="formEmailLabel">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email" required maxlength="160" data-i18n-placeholder="formEmailPlaceholder" placeholder="you@example.com">
+          <label for="projectType" data-i18n="formProjectLabel">What do you need?</label>
+          <select id="projectType" name="projectType" required>
+            <option value="website" data-i18n="optionWebsite">Website</option>
+            <option value="webapp" data-i18n="optionWebapp">Web application</option>
+            <option value="audit" data-i18n="optionAudit">Website audit / SEO</option>
+            <option value="other" data-i18n="optionOther">Something else</option>
+          </select>
+          <label for="message" data-i18n="formMessageLabel">Project details</label>
+          <textarea id="message" name="message" rows="4" required maxlength="3000" data-i18n-placeholder="formMessagePlaceholder" placeholder="A few details about your idea..."></textarea>
+          <button class="button button-primary form-submit" type="submit"><span data-i18n="formSubmit">Prepare message</span><span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form-privacy" data-i18n="formPrivacy">This form opens your email application. It does not send or store data on this website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">A<span>.</span></span><span class="brand-name">Anas<span>Dev</span><small> DIGITAL STUDIO</small></span></a>
+      <p data-i18n="footerText">Independent digital work, built with care.</p>
+      <a href="#home" class="back-top"><span data-i18n="backTop">Back to top</span> ↑</a>
+      <div class="copyright">© <span id="year">2026</span> AnasDev</div>
+    </div>
+  </footer>
+</body>
+</html>
